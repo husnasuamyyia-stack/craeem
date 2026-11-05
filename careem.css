@@ -1,0 +1,407 @@
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.careem_links ul {
+
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.careem_links ul li:hover{
+    border-bottom: 3px solid darkgreen;
+}
+
+/* video section */
+
+.video_section {
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+video {
+    object-fit: cover;
+    height: 60vh;
+}
+
+.children_1 {
+    background-color: blue;
+    color: white;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.children_1 h2 {
+    font-size: 55px;
+    position: relative;
+    top: -50px;
+}
+
+.children_1 h3 {
+    font-size: 40px;
+    position: relative;
+    top: -110px;
+}
+
+.children_1 ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: -150px;
+}
+
+.children_1 ul li img {
+    filter: brightness(0) invert(50);
+}
+
+.arrow_img img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.children_2 {
+    background-color: lightgreen;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.children_2 h2 {
+    font-size: 55px;
+    position: relative;
+    top: -50px;
+
+}
+
+.children_2 h3 {
+    font-size: 40px;
+    position: relative;
+    top: -110px;
+
+}
+
+.children_2 ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: -150px;
+}
+
+
+.children_3 {
+    background-color: dodgerblue;
+    color: white;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.children_3 h2 {
+    font-size: 55px;
+    position: relative;
+    top: -50px;
+}
+
+.children_3 h3 {
+    font-size: 40px;
+    position: relative;
+    top: -110px;
+}
+
+.children_3 ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: -150px;
+}
+
+.children_3 ul li img {
+    filter: brightness(0) invert(50);
+}
+
+
+
+
+.children_4 {
+    background-color: navy;
+    color: white;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.children_4 h2 {
+    font-size: 55px;
+    position: relative;
+    top: -50px;
+}
+
+.children_4 h3 {
+    font-size: 40px;
+    position: relative;
+    top: -110px;
+}
+
+.children_4 ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: -150px;
+}
+
+.children_4 ul li img {
+    filter: brightness(0) invert(50);
+}
+
+
+.parents {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+/* about start */
+
+
+
+.About_us p {
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.About_us h3 {
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.About_us button {
+    margin-left: 90px;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.About_us_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+/* end */
+
+
+/* captains */
+.captains p {
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.captains h3 {
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.captains button {
+    margin-left: 90px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.Captain_main {
+    display: flex;
+    justify-content: space-around;
+    background-color: mediumspringgreen;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+.Engineering p {
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Engineering h3 {
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Engineering button {
+    margin-left: 90px;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.Engineering_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+.social p {
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social h3 {
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.social button {
+    margin-left: 90px;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.social_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+.our_blog_main{
+    padding: 20px;
+    background-color: mediumspringgreen;
+}
+
+.our_blog {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.main_div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.image_1{
+
+    width: 400px;
+    
+}
+
+.image_1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.image_1 h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image_1 button{
+    border-radius: 10px;
+    height: 35px;
+    font-size: 15px;
+    width: 100px;
+    background-color: white;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.UAE{
+    margin-bottom: 15px;
+    
+}
+.main ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+  
+    
+}
+
+.logo_image{
+    margin-bottom: 30px;
+}
+.footer_links ul{
+    padding: 0;
+}
+.last_footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.icon_div{
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+    
